@@ -32,6 +32,7 @@ body {
 .nav h2 {
   margin-top: 125px;
   padding-left: 5px;
+  font-size: 1.6em;
 }
 
 .nav ul {
@@ -106,12 +107,12 @@ p {
   margin: 5px;
 }
 
-.link {
-  text-align: center;
-}
-
 a:hover {
   color: #CBA61A;
+}
+
+.info {
+  text-align: center;
 }
 
 /* Media Queries */
@@ -131,10 +132,6 @@ a:hover {
     width: 30%;
   }
 
-  .nav h2 {
-    color: #CBA61A;
-    font-size: 1.4em;
-  }
 }
 
 @media (max-width: 768px) {
