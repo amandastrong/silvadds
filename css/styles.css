@@ -114,26 +114,26 @@ a:hover {
   color: #CBA61A;
 }
 
-}
 /* Media Queries */
 
 @media (max-width: 980px) {
 
   .wrapper {
-    width: 80%;
+    width: 85%;
   }
 
   .main {
     width: 65%;
+    height: auto;
   }
 
   .nav {
     width: 30%;
   }
 
-  h2 {
+  .nav h2 {
     color: #CBA61A;
-    font-size: 1.8em;
+    font-size: 1.4em;
   }
 }
 
@@ -141,13 +141,30 @@ a:hover {
 
 @media (max-width: 768px) {
 
-  .wrapper{
-    width: 85%;
+  .wrapper {
+    width: 88%;
   }
+
+  .main {
+    height: auto;
+  }
+
+}
 
 @media (max-width: 640px){
 
   .wrapper {
     width: 98%;
   }
+
+  .nav {
+    width: 70%;
+    height: auto;
+  }
+
+  .main {
+    width: 70%;
+    height: auto;
+  }
+}
   
